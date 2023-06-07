@@ -5,6 +5,8 @@ import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
+import lightBulb from "../../public/images/svgs/lightbulb.svg";
 
 export default function Home() {
   return (
@@ -43,7 +45,7 @@ export default function Home() {
                   download={true}
                 >
                   Resumé <LinkArrow className={"w-6 ml-1"} />
-                  {/* switch icon */}
+                  {/* use donwnload icon */}
                 </Link>
                 <Link
                   href="mailto:fabvu8@gmail.com"
@@ -56,6 +58,10 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className="absolute right-8 bottom-8 inline-block w-24 ">
+          <Image src={lightBulb} alt="lighbulb" className="w-full h-auto" />
+        </div>
       </main>
     </>
   );
