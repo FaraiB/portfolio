@@ -44,7 +44,7 @@ function Education() {
             type="BSc Computing and Information Systems"
             time="August 2015"
             place="University of London International Programmes"
-            info="Relevant courses included Graphical object-oriented and internet programming in Java, Database systems, Software engineering, algorithm design and analysis and Introduction to natural language processing."
+            info="Relevant courses included Graphical Object-Oriented and Internet Programming in Java, Database Systems, Software Engineering, Algorithm Design and Analysis and Introduction to Natural Language Processing."
           />
         </ul>
       </div>
