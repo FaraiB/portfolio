@@ -28,7 +28,7 @@ function Skills() {
         >
           Web
         </motion.div>
-        <Skill name="CSS" x="-20vw" y="-2vw" />
+        <Skill name="CSS" x="-20vw" y="0vw" />
         <Skill name="HTML" x="0vw" y="-12vw" />
         <Skill name="JavaScript" x="20vw" y="0vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
