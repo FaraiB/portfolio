@@ -42,10 +42,8 @@ export default function Home() {
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border-2 border-solid border-transparent hover:border-dark"
-                  download={true}
                 >
                   Resumé <LinkArrow className={"w-6 ml-1"} />
-                  {/* use donwnload icon */}
                 </Link>
                 <Link
                   href="mailto:fabvu8@gmail.com"
