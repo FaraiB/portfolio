@@ -27,6 +27,8 @@ function useThemeSwitcher() {
         }
       }
     };
+    handleChange();
+
     mediaQuery.addEventListener("change", handleChange);
 
     return () => mediaQuery.removeEventListener("change", handleChange);
