@@ -56,17 +56,19 @@ const Article = ({ img, title, date, link }) => {
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
       className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between
-     bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4"
+     bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light"
     >
       <MovingImage title={title} img={img} link={link} />
-      <span className="text-primary font-semibold pl-4">{date}</span>
+      <span className="text-primary font-semibold pl-4 dark:text-primaryDark">
+        {date}
+      </span>
     </motion.li>
   );
 };
 
 const FeaturedArticle = ({ img, title, readingTime, summary, link }) => {
   return (
-    <li className="relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl">
+    <li className="relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light">
       <div
         className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
       rounded-br-3xl"
@@ -89,7 +91,9 @@ const FeaturedArticle = ({ img, title, readingTime, summary, link }) => {
           {title}
         </h2>
         <p className="text-sm mb-2 mt-4">{summary}</p>
-        <span className="text-primary font-semibold">{readingTime}</span>
+        <span className="text-primary font-semibold dark:text-primaryDark">
+          {readingTime}
+        </span>
       </Link>
     </li>
   );
@@ -102,7 +106,7 @@ const articles = () => {
         <title>Farai Bvuma | About Page</title>
         <meta name="Articles page" content="Farai Bvuma's articles page" />
       </Head>
-      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
+      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Words Can Change The World!" className="mb-16 " />
           <ul className="grid grid-cols-2 gap-16">
@@ -132,7 +136,7 @@ const articles = () => {
               link="https://dev.to/faraib/how-to-setup-a-local-endpoint-with-express-and-nodejs-54p5"
             />
             <Article
-              title="How to setup a local endpoint with express and Node.js"
+              title="Basic CRUD with Prisma, Fastify and Node"
               img={article2}
               date="30 May 2023"
               link="https://dev.to/faraib/how-to-setup-a-local-endpoint-with-express-and-nodejs-54p5"
