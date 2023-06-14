@@ -7,6 +7,7 @@ import AnimatedText from "@/components/AnimatedText";
 import article1 from "../../public/images/articles/local-api.png";
 import article2 from "../../public/images/articles/crud.png";
 import { motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -109,6 +110,7 @@ const articles = () => {
         <title>Farai Bvuma | About Page</title>
         <meta name="Articles page" content="Farai Bvuma's articles page" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
