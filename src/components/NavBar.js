@@ -47,7 +47,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   );
 };
 
-const navbar = () => {
+const NavBar = () => {
   const [mode, setMode] = useThemeSwitcher();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -192,4 +192,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default NavBar;
