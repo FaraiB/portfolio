@@ -5,7 +5,9 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import cityapts from "../../public/images/projects/cityapts.png";
+import timecapsule from "../../public/images/projects/timecapsule.png";
+import portfolio from "../../public/images/projects/portfolio.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -89,7 +91,7 @@ const Project = ({ title, type, img, link, github }) => {
         <FramerImage
           src={img}
           alt="title"
-          className="w-full h-auto"
+          className="w-full h-52 md:h-auto"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           priority
@@ -137,38 +139,37 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Check out my projects"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                img={project1}
-                link="/"
-                github="/"
+                title="Time capsule"
+                summary="A Time Capsule app developed for web and mobile using made in React.Js, React Native, TypeScript on the front-end, with styling is handled by Tailwind. On the backend, Fastify was used to create the server, Prisma for the database and Axios for routing. OAuth is used for authenitcation.
+                It allows users to upload photos and text of their memories."
+                img={timecapsule}
+                link="https://github.com/FaraiB/timecapsule"
+                github="https://github.com/FaraiB/timecapsule"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="City Apartments"
+                img={cityapts}
+                link="https://github.com/FaraiB/cityapts"
+                github="https://github.com/FaraiB/cityapts"
+                type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Farai's Portfolio"
+                img={portfolio}
+                link="https://github.com/FaraiB/portfolio"
+                github="https://github.com/FaraiB/portfolio"
+                type="Project"
               />
             </div>
           </div>
