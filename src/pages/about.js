@@ -57,16 +57,14 @@ function about() {
                 Hello there, my name is Farai and I am a front-end engineer with
                 a passion for creating beautiful, functional, and user-centered
                 digital experiences. I have over 9 years of experience working
-                in IT, and over 2 years working professionally in software
-                development. I am always looking for practical ways to bring a
-                client's UX designs to life.
+                in IT, over 2 of which have been spent working professionally in
+                software development. I am always looking for practical ways to
+                bring a client's UX designs to life.
               </p>
               <p className="font-medium mt-4">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I'm committed to bringing excellence and user-centered thinking
+                to every project I work on. I look forward to the opportunity to
+                bring my skills and passion to your next project.
               </p>
             </div>
             <div
