@@ -1,18 +1,19 @@
 # A responsive portfolio website created with React, Nextjs, Tailwind CSS and Framer-motion🌟
 
 For Demo and Final Code checkout following link👇: <br />
-[Farai's Portfolio](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion) <br />
+[Farai's Portfolio](https://faraibvuma-portfolio.vercel.app/) <br />
 
 
 ### Images of The Portfolio Website:
-<img width="1421" alt="home page" src="https://github.com/FaraiB/portfolio/assets/35715220/0ffbef26-a567-41fb-8e06-4072953cd413">
+<img width="1404" alt="home page" src="https://github.com/FaraiB/portfolio/assets/35715220/715e7863-9a08-4d2b-8f01-a6a4d6e7718c">
 
-<img width="1408" alt="home page dark mode" src="https://github.com/FaraiB/portfolio/assets/35715220/47243c2e-7d47-4027-b222-39c25de78bca">
+<img width="1386" alt="home page dark mode" src="https://github.com/FaraiB/portfolio/assets/35715220/ad74deff-2377-42f4-a58f-60cba5528360">
 
-<img width="319" alt="about mobile" src="https://github.com/FaraiB/portfolio/assets/35715220/86f92b78-f16b-499c-a81d-d4ea47a3432c">
+<img width="313" alt="about mobile" src="https://github.com/FaraiB/portfolio/assets/35715220/f3f6fad5-b5aa-401d-b26b-4dea0178468d">
+
 <br/>
+<img width="301" alt="about mobile dark mode" src="https://github.com/FaraiB/portfolio/assets/35715220/dd9ad791-68fe-42c2-95cb-99566b2d1c9d">
 
-<img width="308" alt="about mobile dark mode" src="https://github.com/FaraiB/portfolio/assets/35715220/7e01519e-aee3-46f6-9bef-d09f5e556000">
 
 
 ### Resources Used in This Project
