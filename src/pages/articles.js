@@ -6,6 +6,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import article1 from "../../public/images/articles/local-api.png";
 import article2 from "../../public/images/articles/crud.png";
+import article3 from "../../public/images/articles/css-selectors.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -137,6 +138,12 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Demystifying Basic CSS Selectors"
+              img={article3}
+              date="17 July 2023"
+              link="https://dev.to/faraib/demystifying-basic-css-selectors-2k4a"
+            />
             <Article
               title="How to setup a local endpoint with express and Node.js"
               img={article1}
