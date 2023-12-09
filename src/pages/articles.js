@@ -144,13 +144,13 @@ const articles = () => {
               title="Data Structures and Algorithms: Linked List Methods in JavaScript"
               img={article5}
               date="8 December 2023"
-              link="https://dev.to/faraib/demystifying-basic-css-selectors-2k4a"
+              link="https://dev.to/faraib/data-structures-and-algorithms-linked-list-methods-in-javascript-2mm9"
             />
             <Article
               title="Data Structures and Algorithms: Linked Lists"
               img={article4}
               date="22 November 2023"
-              link="https://dev.to/faraib/demystifying-basic-css-selectors-2k4a"
+              link="https://dev.to/faraib/data-structures-and-algorithms-linked-lists-2dp2"
             />
             <Article
               title="Demystifying Basic CSS Selectors"
