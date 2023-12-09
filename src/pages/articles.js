@@ -7,6 +7,8 @@ import AnimatedText from "@/components/AnimatedText";
 import article1 from "../../public/images/articles/local-api.png";
 import article2 from "../../public/images/articles/crud.png";
 import article3 from "../../public/images/articles/css-selectors.png";
+import article4 from "../../public/images/articles/dsa1.png";
+import article5 from "../../public/images/articles/dsa2.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -138,6 +140,18 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Data Structures and Algorithms: Linked List Methods in JavaScript"
+              img={article5}
+              date="8 December 2023"
+              link="https://dev.to/faraib/demystifying-basic-css-selectors-2k4a"
+            />
+            <Article
+              title="Data Structures and Algorithms: Linked Lists"
+              img={article4}
+              date="22 November 2023"
+              link="https://dev.to/faraib/demystifying-basic-css-selectors-2k4a"
+            />
             <Article
               title="Demystifying Basic CSS Selectors"
               img={article3}
