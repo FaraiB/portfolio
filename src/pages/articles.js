@@ -9,6 +9,7 @@ import article2 from "../../public/images/articles/crud.png";
 import article3 from "../../public/images/articles/css-selectors.png";
 import article4 from "../../public/images/articles/dsa1.png";
 import article5 from "../../public/images/articles/dsa2.png";
+import article6 from "../../public/images/articles/dsa3.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -140,6 +141,12 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Data Structures and Algorithms: Queues"
+              img={article6}
+              date="14 December 2023"
+              link="https://dev.to/faraib/data-structures-and-algorithms-queues-1p3f"
+            />
             <Article
               title="Data Structures and Algorithms: Linked List Methods in JavaScript"
               img={article5}
