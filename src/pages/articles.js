@@ -10,6 +10,8 @@ import article3 from "../../public/images/articles/css-selectors.png";
 import article4 from "../../public/images/articles/dsa1.png";
 import article5 from "../../public/images/articles/dsa2.png";
 import article6 from "../../public/images/articles/dsa3.png";
+import article7 from "../../public/images/articles/dsa4.png";
+import article8 from "../../public/images/articles/dsa5.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -142,9 +144,21 @@ const articles = () => {
           </h2>
           <ul>
             <Article
+              title="Data Structures and Algorithms: Recursion"
+              img={article8}
+              date="14 December 2023"
+              link="https://dev.to/faraib/data-structures-and-algorithms-recursion-49ha"
+            />
+            <Article
+              title="Data Structures and Algorithms: Stacks"
+              img={article7}
+              date="02 February 2023"
+              link="https://dev.to/faraib/data-structures-and-algorithms-stacks-2p0b"
+            />
+            <Article
               title="Data Structures and Algorithms: Queues"
               img={article6}
-              date="14 December 2023"
+              date="11 December 2023"
               link="https://dev.to/faraib/data-structures-and-algorithms-queues-1p3f"
             />
             <Article
