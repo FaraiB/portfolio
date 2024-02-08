@@ -146,13 +146,13 @@ const articles = () => {
             <Article
               title="Data Structures and Algorithms: Recursion"
               img={article8}
-              date="14 December 2023"
+              date="02 February 2024"
               link="https://dev.to/faraib/data-structures-and-algorithms-recursion-49ha"
             />
             <Article
               title="Data Structures and Algorithms: Stacks"
               img={article7}
-              date="02 February 2023"
+              date="12 January 2024"
               link="https://dev.to/faraib/data-structures-and-algorithms-stacks-2p0b"
             />
             <Article
