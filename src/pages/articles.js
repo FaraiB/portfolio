@@ -12,6 +12,10 @@ import article5 from "../../public/images/articles/dsa2.png";
 import article6 from "../../public/images/articles/dsa3.png";
 import article7 from "../../public/images/articles/dsa4.png";
 import article8 from "../../public/images/articles/dsa5.png";
+import article9 from "../../public/images/articles/dsa6.png";
+import article10 from "../../public/images/articles/dsa7.png";
+import article11 from "../../public/images/articles/dsa8.png";
+import article12 from "../../public/images/articles/dsa9.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -143,6 +147,30 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Data Structures and Algorithms: Breadth First Search"
+              img={article12}
+              date="21 May 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-breadth-first-search-3aid"
+            />
+            <Article
+              title="Data Structures and Algorithms: Depth First Search"
+              img={article11}
+              date="03 May 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-depth-first-search-4c0e"
+            />
+            <Article
+              title="Data Structures and Algorithms: Trees"
+              img={article10}
+              date="25 April 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-trees-34c4"
+            />
+            <Article
+              title="Data Structures and Algorithms: Quick Sort"
+              img={article9}
+              date="12 March 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-quick-sort-pi"
+            />
             <Article
               title="Data Structures and Algorithms: Recursion"
               img={article8}
