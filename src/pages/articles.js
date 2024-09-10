@@ -16,6 +16,8 @@ import article9 from "../../public/images/articles/dsa6.png";
 import article10 from "../../public/images/articles/dsa7.png";
 import article11 from "../../public/images/articles/dsa8.png";
 import article12 from "../../public/images/articles/dsa9.png";
+import article13 from "../../public/images/articles/dsa10.png";
+import article14 from "../../public/images/articles/dsa11.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -147,6 +149,18 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Data Structures and Algorithms: Graphs"
+              img={article14}
+              date="05 September 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-graphs-3b6c"
+            />
+            <Article
+              title="Data Structures and Algorithms: Heaps"
+              img={article13}
+              date="01 August 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-heaps-1n21"
+            />
             <Article
               title="Data Structures and Algorithms: Breadth First Search"
               img={article12}
