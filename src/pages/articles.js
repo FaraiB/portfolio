@@ -18,6 +18,7 @@ import article11 from "../../public/images/articles/dsa8.png";
 import article12 from "../../public/images/articles/dsa9.png";
 import article13 from "../../public/images/articles/dsa10.png";
 import article14 from "../../public/images/articles/dsa11.png";
+import article15 from "../../public/images/articles/dsa12.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -149,6 +150,12 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Data Structures and Algorithms: Dijkstra's Algorithm"
+              img={article15}
+              date="20 September 2024"
+              link="https://dev.to/faraib/data-structures-and-algorithms-dijkstras-algorithm-ah4"
+            />
             <Article
               title="Data Structures and Algorithms: Graphs"
               img={article14}
