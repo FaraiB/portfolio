@@ -16,7 +16,7 @@ import article9 from "../../public/images/articles/dsa6.png";
 import article10 from "../../public/images/articles/dsa7.png";
 import article11 from "../../public/images/articles/dsa8.png";
 import article12 from "../../public/images/articles/dsa9.png";
-import article13 from "../../public/images/articles/dsa10.png";
+import article13 from "../../public/images/articles/heaps.png";
 import article14 from "../../public/images/articles/dsa11.png";
 import article15 from "../../public/images/articles/dsa12.png";
 import { motion, useMotionValue } from "framer-motion";
@@ -132,11 +132,11 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="How to setup a local endpoint with express and Node.js"
-              summary="Follow this guide to learn how to setup a local endpoint for use in your projects."
-              readingTime="2 min read"
-              link="https://dev.to/faraib/how-to-setup-a-local-endpoint-with-express-and-nodejs-54p5"
-              img={article1}
+              title="Heap Data Structure: A Guide"
+              summary="A heap is a data structure that can be represented as a complete binary tree or in array form. Here’s what you need to know."
+              readingTime="9 min read"
+              link="https://builtin.com/articles/heap-data-structure"
+              img={article13}
             />
             <FeaturedArticle
               title="Basic CRUD with Prisma, Fastify and Node"
@@ -163,10 +163,10 @@ const articles = () => {
               link="https://dev.to/faraib/data-structures-and-algorithms-graphs-3b6c"
             />
             <Article
-              title="Data Structures and Algorithms: Heaps"
+              title="Heap Data Structure: A Guide"
               img={article13}
               date="01 August 2024"
-              link="https://dev.to/faraib/data-structures-and-algorithms-heaps-1n21"
+              link="https://builtin.com/articles/heap-data-structure"
             />
             <Article
               title="Data Structures and Algorithms: Breadth First Search"
