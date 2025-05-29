@@ -20,6 +20,14 @@ function Experience() {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Web Developer II"
+            company="Q4 Inc"
+            companyLink="https://www.q4inc.com/home/default.aspx"
+            address="Toronto(Remote)"
+            time="July 2023 - Presnt"
+            work="Worked as a Web Developer building responsive, client-facing websites for investor relations using HTML, CSS, and JavaScript. I collaborate with cross-functional teams to deliver accessible, high-performance web solutions tailored to each client's brand and business goals.  "
+          />
+          <Details
             position="Junior Software Engineer"
             company="Loft"
             companyLink="https://loft.com.br/"
