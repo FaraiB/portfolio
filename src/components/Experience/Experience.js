@@ -24,8 +24,50 @@ function Experience() {
             company="Q4 Inc"
             companyLink="https://www.q4inc.com/home/default.aspx"
             address="Toronto(Remote)"
-            time="July 2023 - Presnt"
-            work="Worked as a Web Developer building responsive, client-facing websites for investor relations using HTML, CSS, and JavaScript. I collaborate with cross-functional teams to deliver accessible, high-performance web solutions tailored to each client's brand and business goals.  "
+            time="July 2023 - Present"
+            work={
+              <>
+                "Worked as a Web Developer building responsive, client-facing
+                websites using a proprietary CMS along with HTML, CSS and
+                JavaScript. Collaborated with international, cross-functional
+                teams to deliver accessible, high-performance web solutions
+                tailored to each client's brand and business goals. Served as
+                the primary developer responsible for building investor
+                relations sites for clients such as{" "}
+                <a
+                  href="https://investors.wmg.com/investor-relations/default.aspx"
+                  target="_blank"
+                  className="text-primary dark:text-primaryDark hover:underline"
+                >
+                  Warner Music Group
+                </a>{" "}
+                ,{" "}
+                <a
+                  href="https://investors.emera.com/overview/default.aspx"
+                  target="_blank"
+                  className="text-primary dark:text-primaryDark hover:underline"
+                >
+                  Emera Incorporated
+                </a>{" "}
+                ,{" "}
+                <a
+                  href="https://investors.unity.com/overview/default.aspx"
+                  target="_blank"
+                  className="text-primary dark:text-primaryDark hover:underline"
+                >
+                  Unity Technologies
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://investor.bridgebio.com/overview/default.aspx"
+                  target="_blank"
+                  className="text-primary dark:text-primaryDark hover:underline"
+                >
+                  BridgeBio Pharma
+                </a>{" "}
+                ."
+              </>
+            }
           />
           <Details
             position="Junior Software Engineer"
@@ -33,9 +75,24 @@ function Experience() {
             companyLink="https://loft.com.br/"
             address="São Paulo"
             time="June 2021 - March 2023"
-            work="Worked as part of the team responsible for creating and implemtenting Loft's multi-themed design system. 
-            The design system's library of tokens and componets were created in React. The design system had the positive impact of increaseing the productivity of Loft's front-end engineers.
-            I also worked as part of the team responsible for creating Credihome by Loft's new website.  "
+            work={
+              <>
+                "Worked as part of the team responsible for creating and
+                implemtenting Loft's multi-themed design system. The design
+                system's library of tokens and componets were created in React.
+                The design system had the positive impact of increaseing the
+                productivity of Loft's front-end engineers. I also worked as
+                part of the team responsible for creating{" "}
+                <a
+                  href="https://credihome.com.br/"
+                  target="_blank"
+                  className="text-primary dark:text-primaryDark hover:underline"
+                >
+                  Credihome by Loft's
+                </a>{" "}
+                new website. "
+              </>
+            }
           />
           <Details
             position="Full Stack Developer"

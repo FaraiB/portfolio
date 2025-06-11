@@ -5,9 +5,11 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import cityapts from "../../public/images/projects/cityapts.png";
+// import cityapts from "../../public/images/projects/cityapts.png";
+import expensecalculator from "../../public/images/projects/expensecalculator.png";
+import transactionlogger from "../../public/images/projects/transactionlogger.png";
 import timecapsule from "../../public/images/projects/timecapsule.png";
-import portfolio from "../../public/images/projects/portfolio.png";
+// import portfolio from "../../public/images/projects/portfolio.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -156,19 +158,19 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="City Apartments"
-                img={cityapts}
-                link="https://github.com/FaraiB/cityapts"
-                github="https://github.com/FaraiB/cityapts"
+                title="Expense Calculator"
+                img={expensecalculator}
+                link="https://github.com/FaraiB/expense-calculator"
+                github="https://github.com/FaraiB/expense-calculator"
                 type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Farai's Portfolio"
-                img={portfolio}
-                link="https://github.com/FaraiB/portfolio"
-                github="https://github.com/FaraiB/portfolio"
+                title="Transaction Logger"
+                img={transactionlogger}
+                link="https://github.com/FaraiB/basic-transaction-logger"
+                github="https://github.com/FaraiB/basic-transaction-logger"
                 type="Project"
               />
             </div>
