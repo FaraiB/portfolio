@@ -27,12 +27,12 @@ function Experience() {
             time="July 2023 - Present"
             work={
               <>
-                "Worked as a Web Developer building responsive, client-facing
+                Worked as a Web Developer building responsive, client-facing
                 websites using a proprietary CMS along with HTML, CSS and
                 JavaScript. Collaborated with international, cross-functional
                 teams to deliver accessible, high-performance web solutions
-                tailored to each client's brand and business goals. Served as
-                the primary developer responsible for building investor
+                tailored to each client&apos;s brand and business goals. Served
+                as the primary developer responsible for building investor
                 relations sites for clients such as{" "}
                 <a
                   href="https://investors.wmg.com/investor-relations/default.aspx"
@@ -65,7 +65,7 @@ function Experience() {
                 >
                   BridgeBio Pharma
                 </a>{" "}
-                ."
+                .
               </>
             }
           />
@@ -77,20 +77,20 @@ function Experience() {
             time="June 2021 - March 2023"
             work={
               <>
-                "Worked as part of the team responsible for creating and
-                implemtenting Loft's multi-themed design system. The design
-                system's library of tokens and componets were created in React.
-                The design system had the positive impact of increaseing the
-                productivity of Loft's front-end engineers. I also worked as
-                part of the team responsible for creating{" "}
+                Worked as part of the team responsible for creating and
+                implemtenting Loft&apos;s multi-themed design system. The design
+                system&apos;s library of tokens and componets were created in
+                React. The design system had the positive impact of increaseing
+                the productivity of Loft&apos;s front-end engineers. I also
+                worked as part of the team responsible for creating{" "}
                 <a
                   href="https://credihome.com.br/"
                   target="_blank"
                   className="text-primary dark:text-primaryDark hover:underline"
                 >
-                  Credihome by Loft's
+                  Credihome by Loft&apos;s
                 </a>{" "}
-                new website. "
+                new website.
               </>
             }
           />
