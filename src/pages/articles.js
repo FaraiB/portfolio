@@ -19,6 +19,7 @@ import article12 from "../../public/images/articles/dsa9.png";
 import article13 from "../../public/images/articles/heaps.png";
 import article14 from "../../public/images/articles/dsa11.png";
 import article15 from "../../public/images/articles/dsa12.png";
+import article16 from "../../public/images/articles/github-issue-importer.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -150,6 +151,12 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="GitHub Issue Importer"
+              img={article16}
+              date="30 March 2025"
+              link="https://dev.to/faraib/github-issue-importer-56gd"
+            />
             <Article
               title="Data Structures and Algorithms: Dijkstra's Algorithm"
               img={article15}
