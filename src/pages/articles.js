@@ -20,6 +20,8 @@ import article13 from "../../public/images/articles/heaps.png";
 import article14 from "../../public/images/articles/dsa11.png";
 import article15 from "../../public/images/articles/dsa12.png";
 import article16 from "../../public/images/articles/github-issue-importer.png";
+import article17 from "../../public/images/articles/anime-greeting-card.png";
+import article18 from "../../public/images/articles/dynamic-styling.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -151,6 +153,18 @@ const articles = () => {
             All articles
           </h2>
           <ul>
+            <Article
+              title="Dynamic Styling with Props in Styled-Components"
+              img={article18}
+              date="15 July 2025"
+              link="https://dev.to/faraib/dynamic-styling-with-props-in-styled-components-2p7k"
+            />
+            <Article
+              title="Build Apps with Google AI Studio: Anime Greetings Cards"
+              img={article17}
+              date="05 July 2025"
+              link="https://dev.to/faraib/build-apps-with-google-ai-studio-anime-greetings-cards-9ek"
+            />
             <Article
               title="GitHub Issue Importer"
               img={article16}
